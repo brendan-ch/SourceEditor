@@ -8,7 +8,8 @@
 import Cocoa
 
 class ViewController: NSViewController, NSTextViewDelegate {
-
+    @IBOutlet var textView: NSTextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
