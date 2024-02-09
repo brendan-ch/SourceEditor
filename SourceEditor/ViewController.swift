@@ -7,7 +7,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class ViewController: NSViewController, NSTextViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
