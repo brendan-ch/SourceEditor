@@ -45,6 +45,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             }
         }
     }
+    
+    @IBAction func saveDocument(_ sender: Any) {
+        // Grab the text contents from the currently active view controller
+        if let vc = NSApplication.shared.mainWindow?.contentViewController as? ViewController {
+            print(vc.textView.string)
+        }
+    }
 }
 
 extension NSNotification.Name {
