@@ -11,6 +11,7 @@
 		205419D02B75B54300209C24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205419CF2B75B54300209C24 /* ViewController.swift */; };
 		205419D22B75B54400209C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205419D12B75B54400209C24 /* Assets.xcassets */; };
 		205419D52B75B54400209C24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205419D32B75B54400209C24 /* Main.storyboard */; };
+		205419F02B75BB0A00209C24 /* SF-Mono-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 205419E42B75BB0900209C24 /* SF-Mono-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		205419D12B75B54400209C24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		205419D42B75B54400209C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		205419D62B75B54400209C24 /* SourceEditor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SourceEditor.entitlements; sourceTree = "<group>"; };
+		205419E42B75BB0900209C24 /* SF-Mono-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-Regular.otf"; sourceTree = "<group>"; };
+		205419F52B75BB3800209C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,8 @@
 		205419CC2B75B54300209C24 /* SourceEditor */ = {
 			isa = PBXGroup;
 			children = (
+				205419F52B75BB3800209C24 /* Info.plist */,
+				205419F42B75BB0E00209C24 /* Fonts */,
 				205419CD2B75B54300209C24 /* AppDelegate.swift */,
 				205419CF2B75B54300209C24 /* ViewController.swift */,
 				205419D12B75B54400209C24 /* Assets.xcassets */,
@@ -59,6 +64,14 @@
 				205419D62B75B54400209C24 /* SourceEditor.entitlements */,
 			);
 			path = SourceEditor;
+			sourceTree = "<group>";
+		};
+		205419F42B75BB0E00209C24 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				205419E42B75BB0900209C24 /* SF-Mono-Regular.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				205419D22B75B54400209C24 /* Assets.xcassets in Resources */,
+				205419F02B75BB0A00209C24 /* SF-Mono-Regular.otf in Resources */,
 				205419D52B75B54400209C24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +294,7 @@
 				DEVELOPMENT_TEAM = 4A9XHUS87Q;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SourceEditor/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -307,6 +322,7 @@
 				DEVELOPMENT_TEAM = 4A9XHUS87Q;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SourceEditor/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;

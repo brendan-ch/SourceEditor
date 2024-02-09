@@ -7,11 +7,15 @@
 
 import Cocoa
 
+let monoFont = NSFont(name: "SF Mono", size: 12)
+
 class ViewController: NSViewController, NSTextViewDelegate {
     @IBOutlet var textView: NSTextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        textView.font = monoFont
 
         // Do any additional setup after loading the view.
     }
