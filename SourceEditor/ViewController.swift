@@ -16,6 +16,7 @@ class ViewController: NSViewController, NSTextViewDelegate {
         super.viewDidLoad()
         
         textView.font = monoFont
+        textView.enabledTextCheckingTypes = 0
 
         // Do any additional setup after loading the view.
     }
