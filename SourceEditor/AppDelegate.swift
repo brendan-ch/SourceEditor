@@ -40,10 +40,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         openPanel.begin { result in
             if result == NSApplication.ModalResponse.OK {
                 if let selectedPath = openPanel.url {
-                    print(selectedPath)
+                    NotificationCenter.default.post(name: .didOpenDocument, object: nil, userInfo: ["path": selectedPath])
                 }
             }
         }
     }
+}
+
+extension NSNotification.Name {
+    static let didOpenDocument = Notification.Name("didOpenDocument")
 }
 
