@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203F2C1B2B76FDD100B55E7F /* TextDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203F2C1A2B76FDD100B55E7F /* TextDocument.swift */; };
 		205419CE2B75B54300209C24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205419CD2B75B54300209C24 /* AppDelegate.swift */; };
 		205419D02B75B54300209C24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205419CF2B75B54300209C24 /* ViewController.swift */; };
 		205419D22B75B54400209C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205419D12B75B54400209C24 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		203F2C1A2B76FDD100B55E7F /* TextDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDocument.swift; sourceTree = "<group>"; };
 		205419CA2B75B54300209C24 /* SourceEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SourceEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		205419CD2B75B54300209C24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		205419CF2B75B54300209C24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		203F2C192B76FDC700B55E7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				203F2C1A2B76FDD100B55E7F /* TextDocument.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		205419C12B75B54300209C24 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +65,7 @@
 		205419CC2B75B54300209C24 /* SourceEditor */ = {
 			isa = PBXGroup;
 			children = (
+				203F2C192B76FDC700B55E7F /* Models */,
 				205419F52B75BB3800209C24 /* Info.plist */,
 				205419F42B75BB0E00209C24 /* Fonts */,
 				205419CD2B75B54300209C24 /* AppDelegate.swift */,
@@ -146,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				205419D02B75B54300209C24 /* ViewController.swift in Sources */,
+				203F2C1B2B76FDD100B55E7F /* TextDocument.swift in Sources */,
 				205419CE2B75B54300209C24 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
