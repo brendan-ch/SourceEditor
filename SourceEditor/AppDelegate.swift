@@ -26,21 +26,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     @IBAction func openDocument(_ sender: Any) {
-        // Let the user open a new text document
-        let openPanel = NSOpenPanel()
+        let documentController = NSDocumentController.shared
         
-        // Set options
-        openPanel.allowsMultipleSelection = false
-        openPanel.canChooseDirectories = false
-        openPanel.canCreateDirectories = true
-        openPanel.canChooseFiles = true
-        openPanel.allowedContentTypes = [.plainText]
-        
-        // Handle opening of the panel
-        openPanel.begin { result in
-            if result == NSApplication.ModalResponse.OK {
-                if let selectedPath = openPanel.url {
-                    NotificationCenter.default.post(name: .didOpenDocument, object: nil, userInfo: ["path": selectedPath])
+        documentController.beginOpenPanel { urls in
+            guard let urls = urls else { return }
+            
+            for url in urls {
+                // Attempt to open the document
+                documentController.openDocument(withContentsOf: url, display: true) { document, alreadyOpen, error in
+                    if let error = error {
+                        NSApp.presentError(error)
+                    }
                 }
             }
         }
