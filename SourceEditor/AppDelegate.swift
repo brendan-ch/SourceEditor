@@ -43,14 +43,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     @IBAction func saveDocument(_ sender: Any) {
-        // Grab the text contents from the currently active view controller
-        if let vc = NSApplication.shared.mainWindow?.contentViewController as? ViewController {
-            print(vc.textView.string)
+        // Attempt to save the document
+        let documentController = NSDocumentController.shared
+        
+        if let currentDocument = documentController.currentDocument as? TextDocument {
+            // Attempt to save the current document
+            currentDocument.save(to: currentDocument.fileURL!, ofType: currentDocument.fileType!, for: .saveOperation) { error in
+                if let error = error {
+                    NSApp.presentError(error)
+                }
+            }
         }
     }
 }
-
-extension NSNotification.Name {
-    static let didOpenDocument = Notification.Name("didOpenDocument")
-}
-
