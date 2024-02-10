@@ -29,6 +29,9 @@ class TextDocument: NSDocument {
             self.addWindowController(wc)
             
             // Initialize document content within window's view controller?
+            if let vc = wc.contentViewController as? ViewController {
+                vc.textView.string = content
+            }
         }
     }
     
