@@ -7,24 +7,33 @@
 
 import Cocoa
 
+/// Wrapper class for the text contents of the document.
 class DocumentContents: Codable {
+    /// The text contents of the document.
     var content: String = ""
 }
 
 class TextDocument: NSDocument {
+    /// DocumentContents instance which tracks text contents for the document.
     var contents = DocumentContents()
+    
+    /// Indicates whether data has been initialized successfully, whether from
+    /// a `Data` object or a URL.
     var didReadData = false
     
+    /// Readable types for the document.
     override class var readableTypes: [String] {
         return ["public.plain-text"]
     }
     
+    /// Writable types for the document.
     override class var writableTypes: [String] {
         return ["public.plain-text"]
     }
     
     /// Create the window controller object that displays the document,
-    /// and initializes its content.
+    /// and initializes the `representedObject` property of the view controller.
+    /// It is up to the view controller how to use the `representedObject` property.
     override func makeWindowControllers() {
         // Create a window controller containing the document
         let storyboard = NSStoryboard(name: NSStoryboard.Name("Main"), bundle: nil)
