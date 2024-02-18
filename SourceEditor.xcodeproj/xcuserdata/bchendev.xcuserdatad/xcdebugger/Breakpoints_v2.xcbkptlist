@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1BA81A58-4543-4E81-B615-36707ED4F187"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "112ACDE8-9D29-49CA-8D88-0CF664DE630E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SourceEditor/Models/TextDocument.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111">
+            <Locations>
+               <Location
+                  uuid = "112ACDE8-9D29-49CA-8D88-0CF664DE630E - 64e5d4e849b79e4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SourceEditor.TextDocument.writeFileUsingBookmark() -&gt; ()"
+                  moduleName = "SourceEditor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bchendev/Developer/SourceEditor/SourceEditor/Models/TextDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "688">
+               </Location>
+               <Location
+                  uuid = "112ACDE8-9D29-49CA-8D88-0CF664DE630E - 64e5d4e849b79e4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SourceEditor.TextDocument.writeFileUsingBookmark() -&gt; ()"
+                  moduleName = "SourceEditor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bchendev/Developer/SourceEditor/SourceEditor/Models/TextDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "568">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC9799F4-07E1-40BA-9B52-2EF5941A1AD5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SourceEditor/Models/TextDocument.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112">
+            <Locations>
+               <Location
+                  uuid = "EC9799F4-07E1-40BA-9B52-2EF5941A1AD5 - 64e5d4e849b79e2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SourceEditor.TextDocument.writeFileUsingBookmark() -&gt; ()"
+                  moduleName = "SourceEditor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bchendev/Developer/SourceEditor/SourceEditor/Models/TextDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "732">
+               </Location>
+               <Location
+                  uuid = "EC9799F4-07E1-40BA-9B52-2EF5941A1AD5 - 64e5d4e849b79e2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SourceEditor.TextDocument.writeFileUsingBookmark() -&gt; ()"
+                  moduleName = "SourceEditor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bchendev/Developer/SourceEditor/SourceEditor/Models/TextDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "580">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8E011A0D-BA43-4350-8D85-B028B5E053A6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SourceEditor/Models/TextDocument.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114">
+            <Locations>
+               <Location
+                  uuid = "8E011A0D-BA43-4350-8D85-B028B5E053A6 - 64e5d4e849b79ef1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SourceEditor.TextDocument.writeFileUsingBookmark() -&gt; ()"
+                  moduleName = "SourceEditor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bchendev/Developer/SourceEditor/SourceEditor/Models/TextDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "808">
+               </Location>
+               <Location
+                  uuid = "8E011A0D-BA43-4350-8D85-B028B5E053A6 - 64e5d4e849b79ef1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SourceEditor.TextDocument.writeFileUsingBookmark() -&gt; ()"
+                  moduleName = "SourceEditor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bchendev/Developer/SourceEditor/SourceEditor/Models/TextDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "604">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "130ADD8F-7C23-4B59-ACC6-3AA7A03EC009"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SourceEditor/Models/TextDocument.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121">
+            <Locations>
+               <Location
+                  uuid = "130ADD8F-7C23-4B59-ACC6-3AA7A03EC009 - 64e5d4e849b79f18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SourceEditor.TextDocument.writeFileUsingBookmark() -&gt; ()"
+                  moduleName = "SourceEditor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bchendev/Developer/SourceEditor/SourceEditor/Models/TextDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "1240">
+               </Location>
+               <Location
+                  uuid = "130ADD8F-7C23-4B59-ACC6-3AA7A03EC009 - 64e5d4e849b79f18"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SourceEditor.TextDocument.writeFileUsingBookmark() -&gt; ()"
+                  moduleName = "SourceEditor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bchendev/Developer/SourceEditor/SourceEditor/Models/TextDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "936">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86C10859-3906-4744-9C0D-579E193EC4A8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SourceEditor/Models/TextDocument.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117">
+            <Locations>
+               <Location
+                  uuid = "86C10859-3906-4744-9C0D-579E193EC4A8 - 64e5d4e849b79e94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SourceEditor.TextDocument.writeFileUsingBookmark() -&gt; ()"
+                  moduleName = "SourceEditor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bchendev/Developer/SourceEditor/SourceEditor/Models/TextDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "1024">
+               </Location>
+               <Location
+                  uuid = "86C10859-3906-4744-9C0D-579E193EC4A8 - 64e5d4e849b79e94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SourceEditor.TextDocument.writeFileUsingBookmark() -&gt; ()"
+                  moduleName = "SourceEditor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bchendev/Developer/SourceEditor/SourceEditor/Models/TextDocument.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "117"
+                  endingLineNumber = "117"
+                  offsetFromSymbolStart = "744">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
