@@ -7,10 +7,13 @@
 
 import Cocoa
 
-class TextDocument: NSDocument {
-    // Data model
-    // In this case, it's just plaintext
+class DocumentContents: Codable {
     var content: String = ""
+}
+
+class TextDocument: NSDocument {
+    var contents = DocumentContents()
+    var didReadData = false
     
     override class var readableTypes: [String] {
         return ["public.plain-text"]
@@ -32,7 +35,7 @@ class TextDocument: NSDocument {
             
             // Initialize document content within window's view controller?
             if let vc = wc.contentViewController as? ViewController {
-                vc.textView.string = content
+                vc.representedObject = contents
             }
         }
     }
@@ -41,7 +44,7 @@ class TextDocument: NSDocument {
     /// @param ofType The string identifying the document type.
     override func data(ofType typename: String) throws -> Data {
         // Serialize document content to Data object
-        if let data = content.data(using: .utf8) {
+        if let data = contents.content.data(using: .utf8) {
             return data
         } else {
             throw NSError(domain: NSOSStatusErrorDomain, code: unimpErr, userInfo: nil)
@@ -54,7 +57,8 @@ class TextDocument: NSDocument {
     override func read(from data: Data, ofType typename: String) throws {
         // Deserialize document content from data
         if let contentString = String(data: data, encoding: .utf8) {
-            self.content = contentString
+            contents.content = contentString
+            didReadData = true
         } else {
             throw NSError(domain: NSOSStatusErrorDomain, code: unimpErr, userInfo: nil)
         }
@@ -66,23 +70,12 @@ class TextDocument: NSDocument {
     override func read(from url: URL, ofType typeName: String) throws {
         // Implement reading of plain text files
         do {
-            content = try String(contentsOf: url, encoding: .utf8)
-            
+            contents.content = try String(contentsOf: url, encoding: .utf8)
+            didReadData = true
         } catch {
             throw error
         }
     }
-
-    /// Write content to a given URL.
-    /// @param to The URL to write to.
-    /// @param ofType The string identifying the document type.
-    override func write(to url: URL, ofType typeName: String) throws {
-        // Implement writing of plain text files
-        do {
-            try self.content.write(to: url, atomically: true, encoding: .utf8)
-        } catch {
-            throw error
-        }
-    }
-
+    
+    
 }
